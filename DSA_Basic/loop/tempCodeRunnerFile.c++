@@ -1,5 +1,6 @@
-  // int i = 1 ;
-  // while(i <= 50){
-  //   cout<< i <<endl;
-  //   i++;
-  // }
+char ch = 'A';
+// char  Z;
+// while(ch>=Z){
+//   cout<<ch<<endl;
+//   ch++;
+// }

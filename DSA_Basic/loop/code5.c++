@@ -28,10 +28,35 @@ int main(){
 // }
 
 //print 100 to 1 reverse counting
-int i = 100;
-while(i >= 1){
-  cout<<i<<endl;
-  i--;
+// int i = 100;
+// while(i >= 1){
+//   cout<<i<<endl;
+//   i--;
+// }
+
+
+//print your name 50 times
+// int i = 1;
+// while(i<=50){
+//   cout<<
+// }
+
+//print alfabat A to Z
+// char ch = 'A';
+// char  Z;
+// while(ch>=Z){
+//   cout<<ch<<endl;
+//   ch++;
+// }
+
+//print alfabat a to z
+// for(char ch = 'a'; ch <= 'z'; ch++){
+//   cout<<ch<<" ";
+// }
+// //print alfabat a to z
+for(char ch = 'A'; ch <= 'Z'; ch++){
+  cout<<ch<<" ";
 }
+
   return 0;
 }
