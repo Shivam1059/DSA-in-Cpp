@@ -16,24 +16,24 @@ void solve(int arr[], int n){
 }
 
 int main(){
-  // //take a array size
-  // int n;
-  // cout<<"Enter arry size : ";
-  // cin>>n;
-  // //arr declareation
-  // int arr[n];
-  // for(int i=0; i<n; i++){
-  //   cin>>arr[i];
-  // }
-  // //print array
-  // for(int i=0; i<n; i++){
-  //   cout<<arr[i]<<" ";
-  // }
+  //take a array size
+  int n;
+  cout<<"Enter arry size : ";
+  cin>>n;
+  //arr declareation
+  int arr[n];
+  for(int i=0; i<n; i++){
+    cin>>arr[i];
+  }
+  //print array
+  for(int i=0; i<n; i++){
+    cout<<arr[i]<<" ";
+  }
 
-int array[] = {10, 20, 30, 40, 50};
-int size = 5;
+// int array[] = {10, 20, 30, 40, 50};
+// int size = 5;
 
-solve(array, size);
-print(array,size);
+// solve(array, size);
+// print(array,size);
   return 0;
 }
