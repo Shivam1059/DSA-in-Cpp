@@ -41,20 +41,6 @@ int findMax(int arr[], int size){
 
 int main(){
 
-//   int arr[] = {10, 20, 30, 40, 50};
-//   int size = 5;
-//   int target = 55;
-
-//   bool ans = findTargt(arr, size, target);
-//   cout<< "ans : "<<ans<<endl;
-//   // printArr(arr, size);
- 
-
-// int arry[10];
-// int size;
-// cout<<"Enter the number of element"<<endl;
-// cin>>size;
-
 int arr[100];
 int size;
 cout<<"Enter the number of elements"<<endl;
