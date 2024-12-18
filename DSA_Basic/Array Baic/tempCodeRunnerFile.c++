@@ -1,2 +1,1 @@
-int arr[2] = {10, 20};
-// int size = 2;
+  //  cout<<arr1[i]<<" ";
