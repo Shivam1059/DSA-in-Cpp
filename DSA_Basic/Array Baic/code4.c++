@@ -43,6 +43,5 @@ int size = 6;
 // printZeroAndOnes(arr,size);
 extremPrint(arr,size);
 
-
   return 0;
 }
