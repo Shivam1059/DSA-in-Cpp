@@ -38,15 +38,36 @@
 
 //reverse array 
 
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//    int arr[8] = {8,3,5,7,2,6,4,9};
+//    int n = 8;
+
+//    for(int i = n-1; i>=0; i--){
+//    cout<<arr[i]<<" ";
+//    }
+//   return 0;
+// }
+
+
+//roted array one index
+
 #include<iostream>
 using namespace std;
 
 int main(){
-   int arr[8] = {8,3,5,7,2,6,4,9};
-   int n = 8;
+  int arr[8] = {3,4,5,6,7,8,9,4};
+  int n  = 8;
 
-   for(int i = n-1; i>=0; i--){
-   cout<<arr[i]<<" ";
-   }
+  int temp = arr[0];
+  for(int i=1; i<n; i++){
+    arr[n-1] = arr[i];
+    arr[n-1] = temp;
+    cout<<arr[i]<<" ";
+  }
+
+
   return 0;
 }
