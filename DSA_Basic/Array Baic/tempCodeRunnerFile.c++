@@ -1,1 +1,1 @@
-  //  cout<<arr1[i]<<" ";
+ cout<<sum;
