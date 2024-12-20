@@ -1,8 +1,7 @@
-  int i=0;
-//   for(;i<zeroCount;i++){
-//     arr[i] = 0;
-//   }
-//   for(;i<n;i++){
-//     arr[i] = 1;
-//   }
+bool ans  = towSum(arr, n, 70);
+// if(ans == true){
+//   cout<<" Piar found"<<endl;
+// }
+// else{
+//   cout<<" Pair not found";
 // }
