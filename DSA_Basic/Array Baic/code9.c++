@@ -24,22 +24,40 @@ using namespace std;
 
 int main(){
 
-  //1. swap inbulid fun.
+  // //1. swap inbulid fun.
+  // int a = 5;
+  // int b = 8;
+
+  // swap( a, b);
+  // cout<< "a : "<<a<<" b : "<<b<<endl;
+
+  // //2. temp variable
+  //  int x = 8;
+  //  int y = 10;
+
+  //  int temp = x;
+  //   x = y;
+  //   y = temp;
+
+  //   cout<<"x : "<<x<<" Y : "<<y;
+
+  //3. arithematic method   "It is Interview question"
+  // int a = 5, b = 9;
+  // a = a + b;
+  // b = a - b;
+  // a = a - b;
+
+  // cout<<"a : "<<a<<", b : "<<b;
+
+  //4.XOR Method "It is interview question "
   int a = 5;
-  int b = 8;
+  int b = 6;
 
-  swap( a, b);
-  cout<< "a : "<<a<<" b : "<<b<<endl;
+ a = a ^ b;
+ b = b ^ a;
+ a = a ^ b;
 
-  //2. temp variable
-   int x = 8;
-   int y = 10;
-
-   int temp = x;
-    x = y;
-    y = temp;
-
-    cout<<"x : "<<x<<" Y : "<<y;
+cout<<"a : "<<a<<", b : "<<b; 
 
   return 0;
 }
