@@ -103,22 +103,25 @@ using namespace std;
 
 int findLargest(int arr[], int n){
   int largest = arr[0];
-  for(int i=0; i<n; i++){
+  int slargest = -1;
+  for(int i=1; i<n; i++){
     if(arr[i]>largest){
+      slargest = largest;
       largest = arr[i];
     }
-    if(arr[i] > largest && largest < arr[i]){
-      cout<<second<<endl;
+    else if (arr[i] < largest && arr[i] > slargest){
+        slargest = arr[i];
     }
-  }
-  return largest;
+  } 
+return slargest;
+
 }
 
 int main(){
  int arr[] = {12, 35, 1, 10, 34, 1};
  int n = 6;
  
- int largestnum = findLargest(arr,n);
- cout<<" The largest value of array is : "<<largestnum<<endl;
+ int slargestnum = findLargest(arr,n);
+ cout<<" The largest value of array is : "<<slargestnum<<endl;
   return 0;
-}
+}  
