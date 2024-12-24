@@ -10,15 +10,22 @@ int main(){
                    {6,7,8,9},
                    {6,5,4,3} };
     int row = 4;
-    int col = 4;               
+    int col = 4;  
+    // row vies             
+    //  for(int i=0; i<row; i++){
+    //     for(int j=0; j<col; j++){
+    //         cout<<arr[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    //  }
 
-     for(int i=0; i<row; i++){
-        for(int j=0; j<col; j++){
-            cout<<arr[i][j]<<" ";
-        }
-        cout<<endl;
-     }
-
+// col vise
+for(int i=0; i<row; i++){
+    for(int j=0; j<col; j++){
+        cout<<arr[j][i]<<" ";
+    }
+    cout<<endl;
+}
 
     return 0;
 }
