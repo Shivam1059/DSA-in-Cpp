@@ -25,7 +25,13 @@ int main(){
   //   cout<<"Cpacity : "<<v.capacity()<<"  Size : "<<v.size()<<endl;
   // }
 
-vector<int> v; //vector initialization
+vector<int>arr;
+vector<int>arr2(5, -1); //init with n size with specific data
+print(arr2);
+
+
+
+// vector<int> v; //vector initialization
 
 // //inset element
 // v.push_back(1);
@@ -41,18 +47,20 @@ vector<int> v; //vector initialization
 // v.pop_back();
 // print(v);
 
-//take a input in vector
-int n;
-cin>>n;
-for(int i=0; i<n; i++){
-   int d;
-   cin>>d;
-   v.push_back(d);
-}
-print(v);
-   v.pop_back();
-print(v);
+// //take a input in vector
+// int n;
+// cin>>n;
+// for(int i=0; i<n; i++){
+//    int d;
+//    cin>>d;
+//    v.push_back(d);
+// }
+// print(v);
+//    v.pop_back();
+// print(v);
 
+
+//
 
 
 
