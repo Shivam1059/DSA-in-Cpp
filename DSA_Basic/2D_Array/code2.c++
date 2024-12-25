@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
 
-
  int arr[3][5];
  int row = 3;
  int col = 3;
@@ -23,8 +22,6 @@ int main(){
     }
     cout<<endl;
   }
-
-
 
   return 0;
 }
