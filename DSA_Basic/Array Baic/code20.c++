@@ -30,7 +30,7 @@ void roted(int arr[], int n, int d){
     for(int i=0; i<d; i++){
       temp[i] = arr[i];
     }
-    for(int i=d; i<n; i++){
+    for(int i = d; i<n; i++){
       arr[i-d] = arr[i];
     }
     for(int i=n-d; i<n; i++){
@@ -44,13 +44,10 @@ int main(){
  int n = 7;
  int d = 4;
 
- roted(arr,n,d);
-
- for(int i=0; i<n; i++){
+roted(arr,n,d);
+for(int i=0; i<n; i++){
   cout<<arr[i]<<" ";
- }
-
-
+}
 
  return 0;
 }

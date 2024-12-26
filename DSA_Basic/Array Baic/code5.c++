@@ -33,7 +33,9 @@ using namespace std;
 //swap function
 void swapValues(int arr[], int n){
   swap(arr[0],arr[n-1]);
-  cout<<arr[n];
+  for(int i=0; i<n; i++){
+  cout<<arr[i]<<" ";
+  }
 }
 int main(){
   

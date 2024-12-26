@@ -42,7 +42,7 @@ void sortZeorOne(int arr[], int n){
   //using fill fun
   fill(arr, arr + zeroCount, 0);
   fill(arr+zeroCount,arr+n, 1);
-
+}
   //optinaol
 //   int i=0;
 //   for(;i<zeroCount;i++){
