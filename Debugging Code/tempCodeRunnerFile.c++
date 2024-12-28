@@ -1,3 +1,1 @@
- for(int i=0; i<size; i++){
-    cout<<arr[i]<<" ";
-  }
+sort0sand1s(input,size);

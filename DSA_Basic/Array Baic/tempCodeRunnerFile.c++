@@ -1,1 +1,1 @@
-#include<algotrithm>
+   cout<<arr[i]<<" ";
