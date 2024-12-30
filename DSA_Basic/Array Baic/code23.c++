@@ -13,7 +13,6 @@ int  duplicate(int arr[], int n){
         }
         
 }
-y7
 int main(){
 
 int arr[5] = {2,3,1,2,3};
