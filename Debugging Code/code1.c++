@@ -108,10 +108,7 @@ int ans = sort0sand1s(input, size);
 for(int i=0; i<size; i++){
   cout<<input[i]<<" ";
 }
-
-
 // sortArray(input, size);
-
 
   return 0;
 }
