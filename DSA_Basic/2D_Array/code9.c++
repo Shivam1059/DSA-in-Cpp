@@ -71,13 +71,20 @@ int main(){
 
   //Addition of Diagnol
     int sum = 0;
+    int sum1 = 0;
     for(int i=0; i<row; i++){
-        for(int j=0; j<col-i-1; j++){
+        for(int j=0; j<col; j++){
+          if(i==j){
             sum += matrix[i][j];
+          }
+          else if(j==row-1-i){
+            sum1 += matrix[i][j];
+          }
         }
       cout<<endl;
     }
-    cout<<"Sum of diagnol : "<<sum;
+    cout<<"Sum of first diagnol : "<<sum<<endl;;
+    cout<<"Sum of second diagnol : "<<sum1;//accept [1,1] = 5;
 
   return 0;
 }
