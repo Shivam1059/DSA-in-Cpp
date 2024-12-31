@@ -39,6 +39,7 @@ using namespace std;
 //   return -1;
 // }
 
+//optimal way
 void firstrepatedElement(int arr[],int n ){
   for(int i=1; i<n; i++){
     if(i==arr[i]){
@@ -54,7 +55,10 @@ int main(){
 
 firstrepatedElement(arr,n);
 
-
-
   return 0;
 }
+
+
+
+
+//Common in 3 Sorted Arrays
