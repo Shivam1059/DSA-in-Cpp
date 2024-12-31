@@ -82,7 +82,5 @@ cout<<"Col vise arr : "<<endl;
     }
     cout<<endl;
   }
-
-
   return 0;
 }
