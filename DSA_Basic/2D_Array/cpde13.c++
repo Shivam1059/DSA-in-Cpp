@@ -122,49 +122,7 @@ vector<vector<int>>mat = {{11,12,13,14},
                           {15,16,17,18},
                           {19,20,21,22},
                           {23,24,25,26}};
-  // int n = mat.size();
-  // int m = mat[0].size();
-
-  // vector<int>ans;
-  // int totalElement = n*m;
-
-  // int startingrow = 0;
-  // int endingcol = n-1;
-  // int endingrow = m-1;
-  // int startingcol = 0;
-
-  // int count = 0;
-
-  // while(count < totalElement){
-  //   //print starting row
-  //   for(int i=startingcol; i<=endingcol && count < totalElement; i++){
-  //     ans.push_back(mat[startingrow][i]);
-  //     count++;
-  //   }
-  //   startingrow++;
-
-  //   //print endingcol
-  //   for(int i=startingrow; i<=endingrow && count < totalElement; i++ ){
-  //     ans.push_back(mat[i][endingcol]);
-  //     count++;
-  //   }
-  //   endingcol--;
-
-  //   //print ending row
-  //   for(int i=startingcol; i>=endingcol && count < totalElement; i--){
-  //     ans.push_back(mat[endingrow][i]);
-  //     count++
-  //   }
-  //   endingrow--;
-
-  //   //print statting col
-  //   for(int i=startingrow; i>=endingrow && count < totalElement; i--){
-  //     ans.push_back(mat[i][startingcol]);
-  //     count++;
-  //   }
-  //   startingcol++;
-  // }                        
-  // return ans;
+  
 
 vector<int> result = spirallymatrix(mat);
 
