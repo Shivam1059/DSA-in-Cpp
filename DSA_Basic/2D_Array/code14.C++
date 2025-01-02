@@ -20,13 +20,13 @@ int matrix[4][4] = {{1,2,3,4},
     cout<<endl;
   }  
 
-  // cout<<" matrix is rotate 90 degree : "<<endl;
-  // for(int i=0; i<n; i++){
-  //   for(int j=m-1; j>=0; j--){
-  //     cout<<matrix[j][i]<<" ";
-  //   }
-  //   cout<<endl;
-  // }  
+  cout<<" matrix is rotate 90 degree : "<<endl;
+  for(int i=0; i<n; i++){
+    for(int j=m-1; j>=0; j--){
+      cout<<matrix[j][i]<<" ";
+    }
+    cout<<endl;
+  }  
 
 
 //optinal method 
