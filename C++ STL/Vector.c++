@@ -1,4 +1,4 @@
-//Vector
+//Vector 1D array
 
 #include<iostream>
 #include<vector>
