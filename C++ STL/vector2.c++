@@ -14,6 +14,7 @@ int main(){
  nums.push_back(70);
 
  nums.pop_back();
+ 
 cout<<ans<<endl;;
 cout<<ans1<<endl;;
 
