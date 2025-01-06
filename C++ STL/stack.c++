@@ -27,7 +27,12 @@ cout<<st.size() <<endl;
 //top most elelment of stack
 cout<<"top element of stack : "<<st.top() <<endl;
 
-
+//empty operation
+if(st.empty() == true){
+  cout<< " stack is empty "<<endl;
+}else{
+  cout<<" stack is non- empty"<<endl;
+}
 
   return 0;
 }
