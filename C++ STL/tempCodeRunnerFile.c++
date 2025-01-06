@@ -1,1 +1,1 @@
-dq.clear();
+table.clear();
