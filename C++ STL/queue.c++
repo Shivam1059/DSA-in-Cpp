@@ -20,7 +20,7 @@ second.push(300);
 second.push(400);
 
 first.swap(second);
-cout<<"front element in first queue : " <<first.front()<<endl;
+cout<<"front element in first queue : "<<first.front()<<"  , last elemrnt : "<<first.back()<<endl;
 
 /*
  //creation 
