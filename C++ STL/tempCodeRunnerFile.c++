@@ -1,1 +1,1 @@
-table.clear();
+map<int , string> table;
