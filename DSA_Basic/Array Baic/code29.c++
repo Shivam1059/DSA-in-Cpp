@@ -38,8 +38,5 @@ int main(){
 
 longestSubArraywithZero(nums);
 
-
-
-
   return 0;
 }
