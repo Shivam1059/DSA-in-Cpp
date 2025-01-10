@@ -20,7 +20,7 @@ for(int i=0; i<n; i++){
 }
 
 int main(){
-vector<int>nums = {1};
+vector<int>nums = {3,2,3};
 int n = nums.size();
 
 int ans = majorityElement2(nums);
