@@ -37,6 +37,9 @@ int main(){
   cout<<"back value : "<<mark.back()<<endl;
 
 
+ cout<<" Ram is god"<<endl;
+ cout<<mark.begin();
+
   //swap
   vector<int>first;
   vector<int>second;
@@ -68,6 +71,7 @@ int main(){
     cout<< *it <<" ";
     it++;
   }
+
 
 
 //other type of declatreation

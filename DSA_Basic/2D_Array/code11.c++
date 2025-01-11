@@ -13,10 +13,11 @@ int arr[n][n] = {{1,2,3},
   int matrix[n][n];
   for(int i=0; i<n;i++ ){
     for(int j=0; j<n;j++){
-      matrix[i][j] = arr[j][n-1-i];
+      matrix[i][j] = arr[j][n-1-i];   
     }
     cout<<endl;
-  }               
+  }     
+   
 
 for(int i=n; i>=0; i--){
   for(int j=0; j<n; j++){
@@ -24,6 +25,7 @@ for(int i=n; i>=0; i--){
   }
   cout<<endl;
 }
+
 
   return 0;
 }
