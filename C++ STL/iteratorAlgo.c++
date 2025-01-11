@@ -25,18 +25,18 @@ int main(){
  arr[5] = 60;
 
 
-auto it = unique(arr.begin(), arr.end());
+// auto it = unique(arr.begin(), arr.end());
 
-arr.erase(it, arr.end());
-for(int a : arr){
-  cout << a <<" ";
-}
+// arr.erase(it, arr.end());
+// for(int a : arr){
+//   cout << a <<" ";
+// }
 
 
-//  auto it = partition(arr.begin(), arr.end(), checkEven);
-//  for(int a : arr){
-//   cout<<a<<" ";
-//  }
+ auto it = partition(arr.begin(), arr.end(), checkEven);
+ for(int a : arr){
+  cout<<a<<" ";
+ }
 
 
 // auto it = unique(arr.begin(), arr.end());
