@@ -32,10 +32,15 @@ vector<int>result;
 //   cout<< a <<" ";
 // }
 
-set_difference(first.begin(), first.end(), second.begin(), second.end(), inserter(result, result.begin()));
+// set_difference(first.begin(), first.end(), second.begin(), second.end(), inserter(result, result.begin()));
+// for(int a : result){
+//   cout<< a <<" ";
+// }
+
+
+set_symmetric_difference(first.begin(), first.end(), second.begin(), second.end(), inserter(result, result.begin()));
 for(int a : result){
   cout<< a <<" ";
 }
-
 return 0;
 }  
