@@ -98,30 +98,45 @@
 
 
 //find largest element of array
+// #include<iostream>
+// using namespace std;
+
+// int findLargest(int arr[], int n){
+//   int largest = arr[0];
+//   int slargest = -1;
+//   for(int i=1; i<n; i++){
+//     if(arr[i]>largest){
+//       slargest = largest;
+//       largest = arr[i];
+//     }
+//     else if (arr[i] < largest && arr[i] > slargest){
+//         slargest = arr[i];
+//     }
+//   } 
+// return slargest;
+
+// }
+
+// int main(){
+//  int arr[] = {12, 35, 1, 10, 34, 1};
+//  int n = 6;
+ 
+//  int slargestnum = findLargest(arr,n);
+//  cout<<" The largest value of array is : "<<slargestnum<<endl;
+//   return 0;
+// }  
+
 #include<iostream>
+#include<vector>
 using namespace std;
 
-int findLargest(int arr[], int n){
-  int largest = arr[0];
-  int slargest = -1;
-  for(int i=1; i<n; i++){
-    if(arr[i]>largest){
-      slargest = largest;
-      largest = arr[i];
-    }
-    else if (arr[i] < largest && arr[i] > slargest){
-        slargest = arr[i];
-    }
-  } 
-return slargest;
-
-}
-
 int main(){
- int arr[] = {12, 35, 1, 10, 34, 1};
- int n = 6;
- 
- int slargestnum = findLargest(arr,n);
- cout<<" The largest value of array is : "<<slargestnum<<endl;
+ vector<int>arr = {1,2,3,4};
+ int n = arr.size();
+
+ for(int i=0; i<n; i=i+2){
+  cout<<arr[i]<<" ";
+ }
+
   return 0;
-}  
+}
