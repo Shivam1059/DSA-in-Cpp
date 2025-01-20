@@ -13,7 +13,8 @@ void firstOccurence(int arr[], int n, int target , int &ansIndex){
  while(s <= e){
    if( arr[mid] == target){
      ansIndex = mid;
-     e = mid-1;
+    //  e = mid-1; //for first occurence
+     s = mid+1; //for last occurence
    }
 
     else if( target > arr[mid]){
