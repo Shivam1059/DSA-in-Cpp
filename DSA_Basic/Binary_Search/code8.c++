@@ -17,7 +17,6 @@ int peakIndexMountainarray(vector<int>arr){
     else{
       e = mid;
     }
-   
     return arr[mid];
   } 
 
