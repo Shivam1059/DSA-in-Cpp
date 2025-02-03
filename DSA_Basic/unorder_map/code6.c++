@@ -24,8 +24,8 @@ for( it = freq.begin(); it != freq.end(); it++){
   
    cout<<key<<" "<<freq<<endl;
 
-    if( freq == 1)
-      ans = key;
+    if( it->second == 1)
+      ans = it->first;
     break;
 }
 return ans;
