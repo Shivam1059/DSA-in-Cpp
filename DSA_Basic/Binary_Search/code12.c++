@@ -36,7 +36,7 @@ int  applyBinarySearch(int arr[], int size, int target){
 
 int main(){
 
-int arr[] {10,3,40,20,50,80, 70};
+int arr[]= {10,3,40,20,50,80,70};
 int size = 7;
 
 int target = 70;
