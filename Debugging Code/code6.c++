@@ -30,39 +30,39 @@
 
 
 //new method
-// #include<iostream>
-// #include<vector>
-// #include <bits/stdc++.h>
-// #include<algorithm>
-// using namespace std;
+#include<iostream>
+#include<vector>
+#include <bits/stdc++.h>
+#include<algorithm>
+using namespace std;
 
-// int findMin(vector<int>&nums,int n){
+int findMin(vector<int>&nums,int n){
 
-//    int low = 0, high = n-1;
-//    int ans = INT_MAX;
+   int low = 0, high = n-1;
+   int ans = INT_MAX;
 
-//    while(low <= high){
-//      int mid = low + (high - low)/2;
+   while(low <= high){
+     int mid = low + (high - low)/2;
     
 
-//      if(nums[low] <= nums[mid]){
-//          ans = min(ans, nums[low]);
-//          low = mid + 1;
-//      }else{
-//         ans = min(ans, nums[mid]);
-//         high = mid -1;
-//      }
-//    }
-//    return ans;
-// }
+     if(nums[low] <= nums[mid]){
+         ans = min(ans, nums[low]);
+         low = mid + 1;
+     }else{
+        ans = min(ans, nums[mid]);
+        high = mid -1;
+     }
+   }
+   return ans;
+}
 
-// int main(){
+int main(){
 
-//   vector<int>nums = {50,60,70,80,10,20,30,40,50};
-//   int n = nums.size();
+  vector<int>nums = {50,60,70,80,10,20,30,40,50};
+  int n = nums.size();
 
-//   int ans = findMin(nums,n);
-//   cout<<" Mini : "<<ans;
+  int ans = findMin(nums,n);
+  cout<<" Mini : "<<ans;
 
-//   return 0;
-// }
+  return 0;
+}
