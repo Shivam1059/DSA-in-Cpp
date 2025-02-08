@@ -22,9 +22,9 @@ int numberofPairdiff(int arr[], int n,int k){
 
 int main(){
 
-   int arr[5] = {1,2,3,4,5};
+   int arr[5] = {3,1,4,1,5};
    int n = 5;
-   int k = 1;
+   int k = 2;
 
   int ans =  numberofPairdiff(arr,n,k);
   cout<<" Numer of Pair is : "<<ans;
@@ -32,7 +32,3 @@ int main(){
 
   return 0;
 }
-
-//for T.C => O[nlogn]
-#include<iostream>
-u
