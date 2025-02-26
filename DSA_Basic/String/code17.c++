@@ -9,8 +9,10 @@ string longestCommonPrefix(vector<string>& strs) {
   string ans = "";
   for(int i=0; i<strs.size(); i++){
       for(int j=0; j<strs.size(); j++){
-          if(strs[j++] == strs[i++])
+        for(int k=0; k<strs.size(); k++){
+          if(strs[j++] == strs[i++] && strs[j++] == strs[k++]);
             ans = strs[j];
+        } 
       }
   }
   return ans;
